@@ -1,0 +1,1 @@
+youtube-dl --download-archive downloaded.txt -i -o "%(uploader)s/%(upload_date)s - %(title)s - (%(duration)ss) [%(resolution)s].%(ext)s" -f best[ext=mp4] [height=720] --batch-file=channel-list.txt
